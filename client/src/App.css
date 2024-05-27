@@ -1,0 +1,32 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.create-form input {
+    width: 200px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid gold;
+}
+
+.create-form button {
+    padding: 5px;
+    color: black;
+    background-color: gold;
+    cursor: pointer;
+    border: 1px solid gold;
+}
+
+.task {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
